@@ -8,7 +8,7 @@ pub fn run() {
             .split(" ")
             .map(|x| x.parse().unwrap())
             .collect::<Vec<u32>>();
-        println!("{}", last_digit(n[0], n[1]));
+        println!("{:?}", last_digit(n[0], n[1]));
     }
 }
 

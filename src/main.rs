@@ -1,7 +1,16 @@
 mod coins;
+mod diehard;
 mod lastdig;
 
+use std::time::Instant;
+
 fn main() {
-    lastdig::run();
-    coins::run();
+    let now = Instant::now();
+    {
+        // lastdig::run();
+        // coins::run();
+        diehard::run();
+    }
+
+    println!("\nElapsed: {:.2?}", now.elapsed());
 }

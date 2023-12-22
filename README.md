@@ -2,13 +2,11 @@
 
 ## About
 
-The goal is to minimize memory consumption and execution time.
+- The goal is to minimize memory consumption and execution time
+- Measured in SPOJ website
+- Solutions written Rust language
 
-Measured in SPOJ website.
-
-Solutions written Rust language.
-
-## Results
+## Results (1st place)
 
 1. `Bytelandian gold coins`
 
